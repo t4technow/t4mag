@@ -1,0 +1,25 @@
+.navbar-wrap {
+  transition: background-color .5s ease;
+
+}
+
+.sticky {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  right: 0;
+  margin: 0 auto;
+  background-color: #171818;
+  -webkit-box-shadow: 0 7px 12px 0 rgb(0 0 0 / 16%);
+  box-shadow: 0 7px 12px 0 rgb(0 0 0 / 16%);
+  z-index: 99;
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+}
